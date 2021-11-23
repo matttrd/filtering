@@ -28,7 +28,7 @@ parser.add_argument("--batch-size", help="Batch size for data loading", type=int
 parser.add_argument("--workers", help="# data loading workers", type=int, default=10)
 parser.add_argument("--data-aug", help="Whether to use data augmentation", type=int, default=0)
 parser.add_argument("--resume", help="Resume (where the model is stored)", type=str, required='/models/resnet50_l2_eps0.ckpt')
-parser.add_argument("--out-dir", help="Dir where results are stored", type=str, default='/home/matteo/result_filter/defense/')
+parser.add_argument("--out-dir", help="Dir where results are stored", type=str, default='/tmp/result_filter/defense/')
 parser.add_argument("--exp-name", help="Experiment name", type=str, default='test')
 parser.add_argument("--dataset", help="Dataset", type=str, default='imagenet')
 parser.add_argument("--arch", help="Architecture", type=str, default='resnet50')
