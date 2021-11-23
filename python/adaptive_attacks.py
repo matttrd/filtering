@@ -8,7 +8,7 @@ from datasets import DATASETS
 from torchvision.utils import make_grid
 import torchvision
 
-from graph_image_python import compute_graph
+from filtering import compute_graph
 from argparse import ArgumentParser
 import os.path as osp
 import cv2
