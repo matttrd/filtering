@@ -79,8 +79,9 @@ def compute_graph_torch(im, args, upsample=False):
     # if upsample:
     #     im = ch.nn.functional.interpolate(im, scale_factor=scale_factor)
     labelmat = None
+    os.makedirs("/graphs/", exist_ok=True)
     rec_img, labelmat = compute_graph((im.cpu().permute(0,2,3,1).numpy()*255).astype(np.uint8), 
-                    dim, dim, args.res, False,im.shape[0], "/home/matteo/testdir", 0, False)
+                    dim, dim, args.res, False,im.shape[0], "/graphs/", 0, False)
     rec_img = ch.from_numpy(rec_img).cuda().permute(0,3,1,2) / 255.
     # if upsample:
     #     rec_img = ch.nn.functional.interpolate(rec_img, scale_factor=1/scale_factor)
