@@ -1,4 +1,4 @@
-from graph_image_python import compute_graph
+from filtering import compute_graph
 import torch
 ch = torch
 import numpy as np
