@@ -9,6 +9,7 @@ The source code of the filtering algorithm is not provided as we are considering
 Before installing the module please export the libs:
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{your-env-path}/lib
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{your-repo-path}/lib
 
 The python module is created by wrapping the cpp code with pybind11.
