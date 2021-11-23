@@ -7,6 +7,7 @@ The requirements of IGE are libcudf and NVIDIA Thrust.
 The source code of the filtering algorithm is not provided as we are considering to patent it. However, we provide the shared library libgraph-image.so
 
 Before installing the module please export the libs:
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{your-env-path}/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{your-repo-path}/lib
 
