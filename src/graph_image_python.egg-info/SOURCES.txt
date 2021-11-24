@@ -1,6 +1,0 @@
-setup.py
-src/graph_image_python.egg-info/PKG-INFO
-src/graph_image_python.egg-info/SOURCES.txt
-src/graph_image_python.egg-info/dependency_links.txt
-src/graph_image_python.egg-info/not-zip-safe
-src/graph_image_python.egg-info/top_level.txt

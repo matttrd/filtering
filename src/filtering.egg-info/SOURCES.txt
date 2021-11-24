@@ -1,6 +1,0 @@
-setup.py
-src/filtering.egg-info/PKG-INFO
-src/filtering.egg-info/SOURCES.txt
-src/filtering.egg-info/dependency_links.txt
-src/filtering.egg-info/not-zip-safe
-src/filtering.egg-info/top_level.txt
